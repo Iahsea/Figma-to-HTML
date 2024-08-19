@@ -23,10 +23,6 @@ body {
   max-width: calc(100% - 50px);
 }
 
-a {
-  text-decoration: none;
-}
-
 .nav a {
   color: #5f5b53;
   font-size: 1.6rem;
@@ -64,6 +60,21 @@ a {
 .nav a:hover {
   color: #171100;
   text-shadow: 1px 0 0 currentColor;
+}
+
+/* ====================common==================== */
+
+a {
+  text-decoration: none;
+}
+
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27; /* 126.316% */
+  letter-spacing: -0.76px;
 }
 
 .btn {
@@ -263,4 +274,48 @@ a {
 
 .hero .stats strong:nth-child(2) {
   margin-left: 28px;
+}
+
+/* ====================popular courses==================== */
+
+.popular {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+
+.popular .desc {
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67; /* 166.667% */
+  margin-top: 16px;
+}
+
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-top .control {
+  display: flex;
+  gap: 18px;
+}
+
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 40px;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  cursor: pointer;
+}
+
+.popular-top .control-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
