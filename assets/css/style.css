@@ -23,11 +23,26 @@ body {
   max-width: calc(100% - 50px);
 }
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
 .nav a {
   color: #5f5b53;
   font-size: 1.6rem;
   position: relative;
   padding: 8px 21px;
+}
+
+.break-all {
+  word-break: break-all;
 }
 
 /* ====================header==================== */
@@ -332,6 +347,7 @@ a {
 }
 
 .popular .course-item {
+  flex: 1;
   border-radius: 12px;
   border: 1px solid #e2dfda;
   background: #fff;
