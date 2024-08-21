@@ -425,12 +425,23 @@ a {
   border: none;
 }
 
-/* ====================footer==================== */
+/* ====================feedback==================== */
 
 .feedback {
   margin-top: 135px;
   background: #2e2100;
   padding: 96px 0;
+}
+
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback-item {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
 }
 
 .feedback .feedback-item {
