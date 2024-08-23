@@ -555,3 +555,65 @@ a {
   height: 50px;
   background: var(--primary-color);
 }
+
+/* ====================features 2==================== */
+
+.features-2nd {
+  margin-top: 70px;
+}
+
+.features-2nd .body {
+  flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+  width: 49%;
+}
+
+.features-2nd .images img {
+  width: 470px;
+  height: 440px;
+}
+
+/* ====================blog==================== */
+
+.blog {
+  background: #fffcf4;
+}
+
+.header-blog {
+  margin-top: 135px;
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog .heading {
+  color: #130606;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.blog .header-blog .desc {
+  width: 448px;
+  color: #696262;
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.blog .content {
+  display: flex;
+}
+
+.blog .product-blog .images {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
+}
